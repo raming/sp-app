@@ -1,4 +1,7 @@
-window.QUOTE_DATA_BY_SYMBOL = {
+
+let SP_APP_UTILS = (function () {
+
+	const QUOTE_DATA_BY_SYMBOL = {
         MSFT: {
             Name: 'Microsoft Corp',
             Symbol: 'MSFT',
@@ -195,3 +198,9 @@ window.QUOTE_DATA_BY_SYMBOL = {
             Open: 50.7
         }
     };
+
+	return {
+        QUOTE_DATA_BY_SYMBOL: QUOTE_DATA_BY_SYMBOL
+    };
+
+})();
