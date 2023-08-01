@@ -1,4 +1,5 @@
 window.SP_APP_UTILS = window.SP_APP_UTILS || {};
+console.info('got here -----')
 window.SP_APP_UTILS.QUOTE_DATA_BY_SYMBOL = {
     MSFT: {
         Name: 'Microsoft Corp',
