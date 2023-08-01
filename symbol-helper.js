@@ -1,4 +1,4 @@
-export const QUOTE_DATA_BY_SYMBOL = {
+window.QUOTE_DATA_BY_SYMBOL = {
         MSFT: {
             Name: 'Microsoft Corp',
             Symbol: 'MSFT',
